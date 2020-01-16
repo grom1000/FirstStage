@@ -4,6 +4,23 @@
 	align-items: center;
 }
 
+.hamburger {
+    position: relative;
+    display: none;
+    width: 40px;
+    height: 40px;
+    border-top: 7px solid $brightblack-color;
+    border-bottom: 7px solid $brightblack-color;
+    &:before {
+        content: "";
+        position: absolute;
+        top: 9.5px;
+        left: 0px;
+        width: 100%;
+        border-top: 7px solid $brightblack-color;
+        }
+}
+
 .personal {
 	display: flex;
 	align-items: center;

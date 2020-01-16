@@ -1,0 +1,27 @@
+.menu {
+    width: 12.5rem;
+    height: 100vh;
+    position: fixed;
+    background-color: $brightblack-color;
+    left: -12.5rem;
+    top: 0;
+    transition: all ease 1s;
+    z-index: 1;
+    &__list {
+        background-color: $brightblack-color;
+        display: flex;
+        flex-direction: column;
+        line-height: 25px;
+        padding: 10px 20px;
+        align-items: flex-start;
+    }
+    a {
+        color: #fff;
+		text-decoration: none;
+    }
+    &__item {
+        border-top: 1px solid white;
+        margin-top: 10px;
+        padding-top: 10px;
+    }
+}

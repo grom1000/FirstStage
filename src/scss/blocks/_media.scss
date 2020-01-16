@@ -137,6 +137,17 @@
 	}
 }
 @media (max-width: 510px) {
+    .header {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+    }
+    .hamburger {
+        display: block;
+    }
+    .assistant {
+        flex: 0;
+    }
 	.personal {
 		display: none;
 		text-align: center;
