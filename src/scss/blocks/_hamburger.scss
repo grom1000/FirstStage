@@ -11,8 +11,8 @@
         background-color: $brightblack-color;
         display: flex;
         flex-direction: column;
-        line-height: 25px;
-        padding: 10px 20px;
+        line-height: 1.5625rem;
+        padding: 0.625rem 1.25rem;
         align-items: flex-start;
     }
     a {
@@ -20,8 +20,8 @@
 		text-decoration: none;
     }
     &__item {
-        border-top: 1px solid white;
-        margin-top: 10px;
-        padding-top: 10px;
+        border-top: 0.0625rem solid white;
+        margin-top: 0.625rem;
+        padding-top: 0.625rem;
     }
 }
