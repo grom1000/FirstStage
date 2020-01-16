@@ -1,0 +1,13 @@
+.promo {
+	min-height: 52.6875rem;
+	background: url('../img/background/promo.png') center (center/cover) no-repeat;
+	padding-top: 1.875rem;
+	&__text {
+			font-family: 'Circe Bold';
+			font-size: 2.125rem;
+			line-height: $line-height;
+			margin-left: 0.3rem;
+			color: #2b2b2b;
+			margin-top: 11.75rem;
+	}
+}

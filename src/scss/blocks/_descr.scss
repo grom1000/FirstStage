@@ -1,0 +1,73 @@
+.descr {
+    margin-bottom: 10.875rem;
+    &__advant {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 4.5rem;
+    }
+    &__word {
+        font-family: 'Circe Bold';
+        font-size: 2.5rem;
+        color: $lightblack-color;
+        margin: 0 1rem;
+    }
+    &__info {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		align-items: center;
+	}
+	&__column {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin-bottom: 1rem;
+	}
+	&__picture  {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 11.125rem;
+		height: 10.25rem;
+		background: url('../../img/descr/heart.png') center center/cover no-repeat;
+	}
+	&__house {
+		transform: rotate(185.88deg);
+	}
+	&__men {
+		transform: rotate(125.78deg);
+	}
+	&__number {
+		font-family: 'Circe Bold';
+		font-size: 3.125rem;
+		color: $blue-color;
+		margin-bottom: 0.5rem;
+	}
+	&__text {
+		text-align: center;
+		font-family: 'Circe Bold';
+		font-size: 1.25rem;
+		line-height: $line-height;
+		color: $black-color;
+	}
+}
+.picture {
+	&__house {
+	display: flex;
+	transform: rotate(-185.88deg);
+	}
+	&__men {
+		transform: rotate(-125.78deg);
+	}
+}
+.house {
+	&__blue {
+		margin-left: -0.5rem;
+		margin-bottom: -0.25rem;
+	}
+	&__red {
+		margin-top: -0.5rem;
+		margin-left: -0.75rem;
+	}
+}

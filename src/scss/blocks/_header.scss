@@ -1,0 +1,40 @@
+.header {
+	display: flex;
+    justify-content: space-between;
+	align-items: center;
+}
+
+.personal {
+	display: flex;
+	align-items: center;
+	a {
+		color: $black-color;
+		text-decoration: none;
+    }
+    &__account {
+        margin-right: 1.6875rem;
+	}
+	&__catalog {
+		font-family: 'Circe Bold';
+		font-size: 1rem;
+	}
+}
+.assistant {
+	display: flex;
+	align-items: center;
+	a {
+		color: $red-color;
+		text-decoration: none;
+	}
+	&__img {
+		margin-right: 1rem;
+		width: 2.4375rem;
+		img {
+			width: 100%;
+		}
+	}
+	&__online {
+		font-family: 'Circe Bold';
+		font-size: 1rem;
+	}
+}

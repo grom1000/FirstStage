@@ -6,16 +6,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
+    <!-- <nav id="menu">
+        <ol class="burger-menu__nav">
+            <a href="#" class="burger-menu__link">Личный кабинет</a>
+            <a href="#" class="burger-menu__link">Каталог услуг</a>
+            <a href="#" class="burger-menu__link">Онлайн помощник</a>
+            <a href="#" class="burger-menu__link">Услуги и поддержка</a>
+            <a href="#" class="burger-menu__link">Сервисы для бизнеса</a>
+            <a href="#" class="burger-menu__link">Общая информация</a>
+            <a href="#" class="burger-menu__link">Защита бизнеса</a>
+            <a href="#" class="burger-menu__link">service@in-line.ru</a>
+            <a href="#" class="burger-menu__link">8-846456456456</a>
+        </ol>
+    </nav> -->
     <section class="promo">
         <div class="container">
             <div class="header">
                 <div class="personal">
                     <div class="personal__account">
-                        <button class="personal__account__btn">
+                        <button class="button" type="button">
                             Личный кабинет
                         </button>
                     </div>
@@ -25,7 +39,7 @@
                 </div>
                 <div class="assistant">
                     <div class="assistant__img">
-                        <img src="img/header/assistant.svg" alt="Ракета">
+                        <img src="img/header/assistant.png" alt="Ракета">
                     </div>
                     <div class="assistant__online">
                         <a href="#">Онлайн помощник</a>
@@ -43,10 +57,10 @@
                 Для начала работы ответьте на вопрос,<br>есть ли у вас уже существующий бизнес?
             </div>
             <div class="question__answer">
-                <button class="answer__yes">
+                <button class="button_yes" type="button">
                     Да, у меня уже есть бизнес
                 </button>
-                <button class="answer__no">
+                <button class="button_no" type="button">
                     Нет, но планирую открыть
                 </button>
             </div>
@@ -54,53 +68,59 @@
     </section>
     <section class="descr">
         <div class="container">
-            <div class="descr__text">
+            <div class="descr__advant">
                 <div class="descr__square">
-                    <img src="../src/img/descr/square.svg" alt="Красный ромб">
+                    <img src="img/descr/square.png" alt="Красный ромб">
                 </div>
                 <div class="descr__word">
                     Преимущества
                 </div>
                 <div class="descr__square">
-                    <img src="../src/img/descr/square.svg" alt="Красный ромб">
+                    <img src="img/descr/square.png" alt="Красный ромб">
                 </div>
             </div>
             <div class="descr__info">
-                <div class="info__picture__one">
-                    <div class="picture__one__house">
-                        <div class="house__blue">
-                            <img src="../src/img/descr/house_blue.svg" alt="Дом с синей крышей">
-                        </div>
-                        <div class="house__red">
-                            <img src="../src/img/descr/house_red.svg" alt="Дом с красной крышей">
+                <div class="descr__column">
+                    <div class="descr__picture descr__house">
+                        <div class="picture__house">
+                            <div class="house__blue">
+                                <img src="img/descr/house_blue.png" alt="Дом с синей крышей">
+                            </div>
+                            <div class="house__red">
+                                <img src="img/descr/house_red.png" alt="Дом с красной крышей">
+                            </div>
                         </div>
                     </div>
-                    <div class="picture__one__number">
+                    <div class="descr__number">
                         482
                     </div>
-                    <div class="picture__one__text">
+                    <div class="descr__text">
                         Организаций поддержки<br>по Российской Федерации
                     </div>
                 </div>
-                <div class="info__picture__two">
-                    <div class="picture__two__phone">
-                        <img src="../src/img/descr/phone.svg" alt="Телефоны">
+                <div class="descr__column">
+                    <div class="descr__picture descr__phone">
+                        <div class="picture__phone">
+                            <img src="img/descr/phone.png" alt="Телефоны">
+                        </div>
                     </div>
-                    <div class="picture__two__number">
+                    <div class="descr__number">
                         5240
                     </div>
-                    <div class="picture__two__text">
+                    <div class="descr__text">
                         Оказано услуг<br>государственной поддержки
                     </div>
                 </div>
-                <div class="info__picture__three">
-                    <div class="picture__three__men">
-                        <img src="../src/img/descr/men.svg" alt="Люди">
+                <div class="descr__column">
+                    <div class="descr__picture descr__men">
+                        <div class="picture__men">
+                            <img src="img/descr/men.png" alt="Люди">
+                        </div>
                     </div>
-                    <div class="picture__three__number">
+                    <div class="descr__number">
                         1360
                     </div>
-                    <div class="picture__three__text">
+                    <div class="descr__text">
                         Зарегестрировано<br>участников проекта
                     </div>
                 </div>
@@ -110,26 +130,26 @@
     <footer class="footer">
         <div class="container">
             <div class="footer__info">
-                <div class="info__link">
-                    <div class="link__indent link__service">
+                <div class="footer__link">
+                    <div class="footer__size footer__item">
                         <a href="#">Услуги и поддержка</a>
                     </div>
-                    <div class="link__indent link__business">
+                    <div class="footer__size footer__item">
                         <a href="#">Сервисы для бизнеса</a>
                     </div>
-                    <div class="link__indent link__info">
+                    <div class="footer__size footer__item">
                         <a href="#">Общая информация</a>
                     </div>
-                    <div class="link__protect">
+                    <div class="footer__size footer__item">
                         <a href="#">Защита бизнеса</a>
                     </div>
                 </div>
-                <div class="info__contact">
-                    <div class="link__indent">
+                <div class="footer__contact">
+                    <div class="footer__size footer__item">
                         <a href="#">service@in-line.ru</a>
                     </div>
-                    <div>
-                        <a href="#">8-846456456456</a>
+                    <div class="footer__size footer__item">
+                        <a href="tel:+7846456456456">8-846456456456</a>
                     </div>
                 </div>
             </div>

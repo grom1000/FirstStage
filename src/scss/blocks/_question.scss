@@ -1,0 +1,19 @@
+.question {
+	min-height: 23.125rem;
+    background: url('../../img/background/rectangle.png') center (center/cover) no-repeat;
+	padding-top: 5.3125rem;
+	margin-bottom: 9.9375rem;
+    margin-top: -0.0625rem;
+    &__text {
+        font-family: 'Circe Bold';
+        font-size: 2rem;
+        line-height: $line-height;
+        text-align: center;
+        color: $lightblack-color;
+        margin-bottom: 2.4375rem;
+    }
+    &__answer {
+        display: flex;
+        justify-content: center;
+    }
+}

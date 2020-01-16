@@ -1,0 +1,201 @@
+@media (max-width: 1200px) {
+	.header {
+		justify-content: space-around;
+	}
+	.promo__text {
+		margin-left: 9.375rem;
+	}
+}
+@media (max-width: 1160px) {
+	.footer__info {
+		justify-content: space-around;
+	}
+}
+@media (max-width: 1085px) {
+    .header {
+        justify-content: center;
+    }
+    .personal {
+        margin-right: 3.125rem;
+    }
+    .assistant {
+        margin-left: 3.125rem;
+    }
+    .promo {
+        min-height: 58.9375rem;
+		background-position-y: 6.25rem;
+        background-size: auto 52.6875rem;
+        &__text {
+            margin-left: 0;
+            display: flex;
+            justify-content: center;
+            text-align: left;
+        }
+	}
+    .question__answer {
+        display: block;
+    }
+    .button {
+        &_yes {
+            display: block;
+            margin: 0 auto;
+            margin-bottom: 1.25rem;
+        }
+        &_no {
+            display: block;
+            margin: 0 auto;
+        }
+    }
+    .descr {
+        margin-bottom: 6.875rem;
+        &__picture {
+            margin: 0;
+        }
+        &__info {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        &__column {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            flex: 100%;
+            margin-bottom: 3.75rem;
+        }
+    }
+	.footer {
+        padding: 0.46875rem 0;
+        &__info {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 0 1rem;
+        }
+        &__link {
+            justify-content: space-around;
+            flex: 100%;
+            margin-bottom: 0.5rem;
+            margin-right: 0;
+        }
+        &__contact {
+            justify-content: space-around;
+            flex: 100%;
+            border-top: 1px solid white;
+            padding-top: 0.5rem;
+        }
+        &__item {
+            padding: 0.46875rem 1rem;
+        }
+	}
+    .footer__indent {
+		margin-right: 0rem;
+	}
+}
+@media (max-width: 765px) {
+	.header {
+		flex-wrap: wrap;
+	}
+	.personal {
+		justify-content: center;
+		margin: 0;
+		margin-bottom: 1.875rem;
+		flex: 100%;
+	}
+	.assistant {
+		justify-content: center;
+		margin: 0;
+		flex: 100%;
+	}
+	.promo__text {
+		margin-top: 7.5rem;
+		font-size: 1.6875rem;
+	}
+	.question__text {
+		font-size: 1.4375rem;
+	}
+	.descr__word {
+		font-size: 1.625rem;
+	}
+	.footer {
+        &__info {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 0 1rem;
+        }
+        &__link {
+            justify-content: space-around;
+            flex: 100%;
+            margin-bottom: 0.5rem;
+            margin-right: 0;
+        }
+        &__contact {
+            justify-content: space-around;
+            flex: 100%;
+            border-top: 1px solid white;
+            padding-top: 0.5rem;
+        }
+	}
+}
+@media (max-width: 510px) {
+	.personal {
+		display: none;
+		text-align: center;
+        margin-bottom: 1.25rem;
+        &__account {
+            margin-right: 0;
+            margin-bottom: 1.25rem;
+        }
+    }
+    .assistant__online {
+        display: none;
+    }
+    .promo {
+        min-height: 46.4375rem;
+        background-position-y: -6.25rem;
+        &__text {
+            font-size: 1.375rem;
+            padding: 0 1.5rem;
+            text-align: left;
+            margin-top: 5rem;
+        }
+    }
+	.button {
+        &_yes {
+            margin: 0;
+            font-size: 1rem;
+            margin: 0 auto;
+            margin-bottom: 0.9375rem;
+            padding: 0.75rem 2.7rem;
+        }
+        &_no {
+            margin: 0;
+            font-size: 1rem;
+            margin: 0 auto;
+            padding: 0.75rem 2.7rem;
+        }
+	}
+
+	.question {
+        margin-bottom: 3rem;
+        &__text {
+            font-size: 1.375rem;
+            padding: 1.25rem;
+            margin-bottom: 0.9375rem;
+        }
+	}
+	.descr {
+        margin-bottom: 1rem;
+        &__word {
+            font-size: 1.375rem;
+        }
+        &__advant {
+            margin-bottom: 1rem;
+        }
+        &__column {
+            margin-bottom: 1rem;
+        }
+    }
+    .footer {
+        display: none;
+    }
+}

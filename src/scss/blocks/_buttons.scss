@@ -1,0 +1,35 @@
+.button {
+    border-radius: 3.125rem;
+    border: none;
+    outline: none;
+    background-color: $red-color;
+    color: white;
+    font-family: 'Circe Regular';
+    font-size: 1rem;
+    padding: 0.75rem 2rem;
+    cursor: pointer;
+    &_yes {
+        border-radius: 3.125rem;
+        border: none;
+        outline: none;
+        background-color: $red-color;
+        color: white;
+        font-family: 'Circe Regular';
+        font-size: 1.5rem;
+        margin-right: 1.75rem;
+        padding: 0.75rem 3.125rem;
+        cursor: pointer;
+    }
+    &_no {
+        border-radius: 3rem;
+        border: none;
+        outline: none;
+        background-color: $blue-color;
+        color: white;
+        font-family: 'Circe Regular';
+        font-size: 1.5rem;
+        margin-right: 1.75rem;
+        padding: 0.75rem 3.125rem;
+        cursor: pointer;
+    }
+}
