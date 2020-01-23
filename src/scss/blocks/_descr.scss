@@ -25,6 +25,7 @@
 		margin-bottom: 1rem;
 	}
 	&__picture  {
+		z-index: -1;
 		display: flex;
 		align-items: center;
 		justify-content: center;

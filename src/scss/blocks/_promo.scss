@@ -1,5 +1,7 @@
 .promo {
 	min-height: 52.6875rem;
+	max-width: 120rem;
+	margin: 0 auto;
 	background: url('../img/background/promo.png') center (center/cover) no-repeat;
 	padding-top: 1.875rem;
 	&__text {

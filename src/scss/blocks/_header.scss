@@ -7,17 +7,17 @@
 .hamburger {
     position: relative;
     display: none;
-    width: 40px;
-    height: 40px;
-    border-top: 7px solid $brightblack-color;
-    border-bottom: 7px solid $brightblack-color;
+    width: 2.375rem;
+    height: 2.375rem;
+    border-top: 0.4375rem solid $brightblack-color;
+    border-bottom: 0.4375rem solid $brightblack-color;
     &:before {
         content: "";
         position: absolute;
-        top: 9.5px;
+        top: 0.5625rem;
         left: 0px;
         width: 100%;
-        border-top: 7px solid $brightblack-color;
+        border-top: 0.4375rem solid $brightblack-color;
         }
 }
 
@@ -45,7 +45,7 @@
 	}
 	&__img {
 		margin-right: 1rem;
-		width: 2.4375rem;
+		width: 2.375rem;
 		img {
 			width: 100%;
 		}

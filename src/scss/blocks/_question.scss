@@ -1,9 +1,11 @@
 .question {
-	min-height: 23.125rem;
+    min-height: 23.125rem;
+    max-width: 120rem;
+	margin: 0 auto;
     background: url('../../img/background/rectangle.png') center (center/cover) no-repeat;
 	padding-top: 5.3125rem;
 	margin-bottom: 9.9375rem;
-    margin-top: -0.0625rem;
+    margin-top: -0.125rem;
     &__text {
         font-family: 'Circe Bold';
         font-size: 2rem;
