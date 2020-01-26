@@ -7,7 +7,7 @@
     background-color: $brightblack-color;
     left: -12.5rem;
     top: 0;
-    transition: all ease 1s;
+    transition: all ease 0.4s;
     &__list {
         background-color: $brightblack-color;
         display: flex;
@@ -16,6 +16,7 @@
         padding: 0.625rem 1.25rem;
         align-items: flex-start;
         font-family: 'Circe Regular';
+        margin-top: 2.1875rem;
     }
     a {
         color: #fff;
