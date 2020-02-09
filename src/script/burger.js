@@ -36,4 +36,43 @@ window.onload = function() {
     backdrop.onclick = menuHide;
     list.onclick = menuHide;
     window.onresize = browserSize;
+
+    function bindModal(trigger, modal, close) {
+        width = window.innerWidth;
+        trigger.addEventListener('click', function(e) {
+            if (e.target) {
+                e.preventDefault();
+            }
+            modal.style.display = 'block';
+            document.body.style.overflow = 'hidden';
+        })
+
+        close.addEventListener('click', function() {
+            modal.style.display = 'none';
+            document.body.style.overflow = '';
+    })
+
+        modal.addEventListener('click', function(e) {
+            if (e.target === modal) {
+                modal.style.display = 'none';
+                document.body.style.overflow = '';
+        }
+    })
+}
+
+    var assistant = document.querySelector('.assistant__img');
+    var online = document.querySelector('.assistant__online')
+    var modalAssistant = document.querySelector('.popup');
+    var closeAssistant = document.querySelector('.popup .popup_close');
+// function showModalByTime(selector, time) {
+//     setTimeout(function() {
+//         document.querySelector(selector).style.display = 'block';
+//         document.body.style.overflow = 'hidden';
+//     }, time);
+// }
+
+    bindModal(assistant, modalAssistant, closeAssistant);
+    bindModal(online, modalAssistant, closeAssistant);
+// bindModal('.phone_link', '.popup', '.popup .popup_close');
+// showModalByTime('.popup', 3000);
 }

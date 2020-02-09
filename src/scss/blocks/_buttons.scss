@@ -8,6 +8,12 @@
     font-size: 1rem;
     padding: 0.75rem 2rem;
     cursor: pointer;
+    &:hover {
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.1), 0 6px 20px 0 rgba(0,0,0,0.1);
+    }
+    &:active {
+        opacity: 0.9;
+    }
     &_yes {
         border-radius: 3.125rem;
         border: none;
@@ -19,6 +25,12 @@
         margin-right: 1.75rem;
         padding: 0.75rem 3.125rem;
         cursor: pointer;
+        &:hover {
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.1), 0 6px 20px 0 rgba(0,0,0,0.1);
+        }
+        &:active {
+            opacity: 0.9;
+        }
     }
     &_no {
         border-radius: 3rem;
@@ -31,5 +43,11 @@
         margin-right: 1.75rem;
         padding: 0.75rem 3.125rem;
         cursor: pointer;
+        &:hover {
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.1), 0 6px 20px 0 rgba(0,0,0,0.1);
+        }
+        &:active {
+            opacity: 0.9;
+        }
     }
 }

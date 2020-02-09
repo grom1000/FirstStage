@@ -1,0 +1,71 @@
+.popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+    background-color: rgba(0, 0, 0, 0.5);
+    &_content {
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        width: 30rem;
+        background-color: $white;
+    }
+    &_close {
+        position: absolute;
+        top: 0;
+        right: 1rem;
+        font-size: 4rem;
+        color: $black;
+        border: none;
+        background: transparent;
+        opacity: 0.7;
+        outline: none;
+        &:hover {
+            opacity: 1;
+        }
+    }
+}
+.form {
+    padding: 4rem 4rem 0.5rem 4rem;
+    text-align: center;
+    border-radius: 1rem;
+    background-color: $white;
+    font-family: 'Circe Regular';
+    font-size: 1.1rem;
+    h2 {
+        margin-bottom: 2rem;
+        font-size: 1.9rem;
+        font-family: 'Circe Bold';
+    }
+    &_input {
+        display: block;
+        margin: 0 auto;
+        padding: 1.2rem 3rem;
+        margin-bottom: 1.5rem;
+        text-align: center;
+        border-radius: 1rem;
+        outline: none;
+        border: none;
+        border: solid 2px $lightgray;
+        font-family: 'Circe Regular';
+        &::placeholder {
+            font-family: 'Circe Regular';
+        }
+        &:hover {
+            background-color: $whitesmoke;
+        }
+        &:focus {
+            border: solid 2px #808080;
+        }
+    }
+    &_notice {
+        font-family: 'Circe Bold';
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+        font-size: 1.1rem;
+    }
+}

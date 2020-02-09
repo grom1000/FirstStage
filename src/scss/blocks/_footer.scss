@@ -4,6 +4,12 @@
 	a {
 		text-decoration: none;
 		color: #ffffff;
+		&:hover {
+			text-decoration: underline;
+		}
+		&:active {
+			opacity: 0.7;
+		}
 	}
 	&__info {
 		display: flex;
@@ -15,7 +21,7 @@
 		justify-content: space-between;
 		flex-wrap: wrap;
 		flex: 73%;
-		font-family: 'Circe Bold';
+		font-family: 'Circe Regular';
 		font-size: 1rem;
 		margin-right: 7rem;
 	}
@@ -25,7 +31,7 @@
 		flex-wrap: wrap;
 		flex: 27%;
 		flex-shrink: 0;
-		font-family: 'Circe Bold';
+		font-family: 'Circe Regular';
 		font-size: 1rem;
 	}
 	&__item {

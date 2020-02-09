@@ -130,26 +130,17 @@
 	}
 	.descr__word {
 		font-size: 1.625rem;
-	}
-	.footer {
-        &__info {
-            display: flex;
-            flex-wrap: wrap;
-            padding: 0 1rem;
-        }
+    }
+    .footer {
         &__link {
-            justify-content: space-around;
-            flex: 100%;
-            margin-bottom: 0.5rem;
-            margin-right: 0;
+            display: none;
         }
         &__contact {
-            justify-content: space-around;
             flex: 100%;
-            border-top: 1px solid white;
-            padding-top: 0.5rem;
+            border-top: 0;
+            padding-top: 0;
         }
-	}
+    }
 }
 @media (max-width: 510px) {
     .header {
@@ -236,6 +227,33 @@
             flex: 100%;
             border-top: 0;
             padding-top: 0;
+        }
+    }
+}
+@media (max-width: 425px) {
+    .popup {
+        &_content {
+            position: fixed;
+            bottom: 50% !important;
+            top: 10%;
+            left: 50%;
+            -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+            width: 18.75rem !important;
+            border-radius: 1rem;
+        }
+        &_close {
+            top: -0.5rem !important;
+            right: 0.5rem !important;
+        }
+    }
+    .form {
+        padding: 3.5rem 1rem 0.5rem 1rem !important;
+        h2 {
+            font-size: 1.5rem !important;
+        }
+        &_input {
+            padding: 1.2rem 1rem !important;
         }
     }
 }
