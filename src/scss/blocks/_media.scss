@@ -234,13 +234,7 @@
     .popup {
         &_content {
             position: fixed;
-            bottom: 50% !important;
-            top: 10%;
-            left: 50%;
-            -webkit-transform: translateX(-50%);
-            transform: translateX(-50%);
             width: 18.75rem !important;
-            border-radius: 1rem;
         }
         &_close {
             top: -0.5rem !important;

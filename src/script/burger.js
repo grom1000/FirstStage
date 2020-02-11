@@ -1,9 +1,16 @@
 window.onload = function () {
 
+    if(document.body.scrollHeight<=document.documentElement.clientHeight){
+        document.body.style.position='absolute';
+        document.body.style.width=document.documentElement.clientWidth+17 + 'px';
+        document.body.style.left=-17 + 'px';
+        }
+
     var menu = document.querySelector('.menu');
     var hamburger = document.querySelector('.hamburger');
     var close = document.querySelector('.close');
     var backdrop = document.querySelector('.backdrop');
+    var popup = document.querySelector('.popup');
     var list = document.querySelector('.menu__list');
     var width = 0;
     var menuOpen = false;
@@ -44,17 +51,20 @@ window.onload = function () {
             }
             modal.style.display = 'block';
             document.body.style.overflow = 'hidden';
+            document.body.style.paddingRight = '17px';
         })
 
         close.addEventListener('click', function () {
             modal.style.display = 'none';
             document.body.style.overflow = '';
+            document.body.style.paddingRight = '0';
         })
 
         modal.addEventListener('click', function (e) {
             if (e.target === modal) {
                 modal.style.display = 'none';
                 document.body.style.overflow = '';
+                document.body.style.paddingRight = '0';
             }
         })
     }
