@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tailwind:build": "npx tailwind build src/css/tailwind.css -o css/dist/tailwind.css"
   },
   "repository": {
     "type": "git",
@@ -22,7 +23,11 @@
     "gulp-autoprefixer": "^7.0.1",
     "gulp-clean-css": "^4.2.0",
     "gulp-cli": "^2.2.0",
+    "gulp-postcss": "^8.0.0",
     "gulp-rename": "^2.0.0",
     "gulp-sass": "^4.0.2"
+  },
+  "dependencies": {
+    "tailwindcss": "^1.2.0"
   }
 }
